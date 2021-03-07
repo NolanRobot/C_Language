@@ -7,7 +7,7 @@ int main(void)
 {
 	FILE *fp;
 
-	fp = fopen("tmp", "r");
+	fp = fopen("tempfile", "r");
 
 	if (fp == NULL){
 		fprintf(stderr, "fopen():%s\n", strerror(errno));
